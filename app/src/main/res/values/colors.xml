@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff222222</color>
+    <color name="BackgroundApp">#FFCC66</color>
+    <color name="header">#a6a4a4</color>
+    <color name="foreground">#ff222222</color>
+    <color name="warna_judul">#ff222222</color>
+    <color name="putih">#c4c0c0</color>
+</resources>

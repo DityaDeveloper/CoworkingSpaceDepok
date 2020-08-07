@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <!-- Letak layout Header -->
+
+    <!-- Letak Tombol -->
+
+    <LinearLayout
+        android:id="@+id/LayoutMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <LinearLayout
+            android:id="@+id/barisPertama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tombolmaps"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/ic_maps"
+                android:onClick="klikTombolMenu"
+                android:text="@string/ic_maps" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/barisKedua"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tombolhome"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/ic_home"
+                android:onClick="klikTombolMenu"
+                android:text="@string/ic_home" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barisKetiga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tombolabout"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/ic_info"
+                android:onClick="klikTombolMenu"
+                android:text="@string/ic_about" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barisKeempat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tombolversi"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/ic_versi"
+                android:onClick="klikTombolMenu"
+                android:text="@string/ic_exit" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Letak layout kaki -->
+
+   </LinearLayout>
+
